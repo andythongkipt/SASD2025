@@ -66,9 +66,10 @@ def calculate_final_price(
 4️⃣ กรณีที่ Comments ไม่จำเป็นต้องแก้
 
 จากที่ผมศึกษามา commentไม่ใช่สิ่งที่ไม่ดีเสมอไปบางครั้งต้องมีคอมเมนต์เพราะโค้ดไม่สามารถอธิบายได้
+
 ตัวอย่าง code ที่ไม่จำเป็นต้องแก้ comment
 
-adjusted_score = raw_score * 0.9
+```adjusted_score = raw_score * 0.9```
 
 Use 0.9 instead of 1.0 because the upstream system
 
