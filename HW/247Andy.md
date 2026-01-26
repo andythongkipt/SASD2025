@@ -71,9 +71,9 @@ def calculate_final_price(
 
 ```adjusted_score = raw_score * 0.9```
 
-Use 0.9 instead of 1.0 because the upstream system
+- Use 0.9 instead of 1.0 because the upstream system
 
-consistently overestimates the score by approximately 10%.ฃ
+- consistently overestimates the score by approximately 10%.
 
 
 
