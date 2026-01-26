@@ -43,6 +43,8 @@ def calc(p, d, t):
   คอมเมนต์หลายบรรทัดเป็นเพียงการแปลโค้ดซึ่งไม่จำเป็นเลยครับ
 
 3️⃣ ตัวอย่างโค้ดหลัง Refactoring
+
+```
 def apply_discount(price: float, discount_percent: float) -> float:
     return price * (1 - discount_percent / 100)
 
@@ -57,6 +59,7 @@ def calculate_final_price(
     discounted_price = apply_discount(price, discount_percent)
     final_price = apply_tax(discounted_price, tax_percent)
     return final_price
+```
 
 ข้อดีหลัง Refactoring : 1. ชื่อฟังก์ชันและตัวแปรสื่อความหมายชัดเจน 2. ไม่จำเป็นต้องมีคอมเมนต์อธิบายทีละบรรทัด  3. โค้ดอ่านง่ายทดสอบง่ายและแก้ไขได้ง่ายขึ้นในครั้งต่อไปครับ
 
