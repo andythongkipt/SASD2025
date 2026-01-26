@@ -66,7 +66,9 @@ def calculate_final_price(
 ตัวอย่าง code ที่ไม่จำเป็นต้องแก้ comment
 
 Use 0.9 instead of 1.0 because the upstream system
-consistently overestimates the score by approximately 10%.
+
+consistently overestimates the score by approximately 10%.ฃ
+
 adjusted_score = raw_score * 0.9
 
 
