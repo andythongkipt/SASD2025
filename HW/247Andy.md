@@ -65,8 +65,8 @@ def calculate_final_price(
 จากที่ผมศึกษามา commentไม่ใช่สิ่งที่ไม่ดีเสมอไปบางครั้งต้องมีคอมเมนต์เพราะโค้ดไม่สามารถอธิบายได้
 ตัวอย่าง code ที่ไม่จำเป็นต้องแก้ comment
 
-# Use 0.9 instead of 1.0 because the upstream system
-# consistently overestimates the score by approximately 10%.
+Use 0.9 instead of 1.0 because the upstream system
+consistently overestimates the score by approximately 10%.
 adjusted_score = raw_score * 0.9
 
 
